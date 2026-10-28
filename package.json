@@ -1,0 +1,16 @@
+{
+  "name": "steam-play-time-fetcher",
+  "version": "1.0.0",
+  "description": "A small self-hosted Steam playtime bridge for a Deadlock Panorama HUD mod.",
+  "private": true,
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
